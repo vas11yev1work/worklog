@@ -15,7 +15,6 @@ module.exports = {
     'eslint:recommended',
     '@vue/typescript',
     '@vue/prettier',
-    '@feature-sliced',
   ],
   rules: {
     'no-debugger': 'warn',
@@ -42,16 +41,6 @@ module.exports = {
     }],
     'vue/no-multiple-template-root': 'off',
     'vue/multi-word-component-names': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        'js': 'never',
-        'jsx': 'never',
-        'ts': 'never',
-        'tsx': 'never'
-      }
-    ],
     'vue/custom-event-name-casing': ['error', 'kebab-case'],
     'vue/no-v-model-argument': 'off'
   },
